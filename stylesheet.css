@@ -1,0 +1,100 @@
+body{
+    background-color: #18191a;
+    color: #e4e6eb;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#header-section{
+    display: flexbox;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #242526;
+	padding: 15px;
+	max-width: 850px;
+	border-radius: 15px;
+    text-align: center;
+}
+
+#profile-pic{
+    border-radius: 100%;
+    width: 125px;
+	height: 125px;
+    border: 5px #18191a  solid;
+}
+
+#about-section{
+    display: flexbox;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #242526;
+	padding: 15px;
+	max-width: 850px;
+	border-radius: 15px;
+}
+
+
+#about-line{
+    width: auto;
+    border: 1px solid #e4e6eb;
+}
+
+p{
+    text-align: justify;
+}
+
+#skils-section{
+    display: flexbox;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #242526;
+	padding: 15px;
+	max-width: 850px;
+	border-radius: 15px;
+}
+
+
+#skills-line{
+    width: auto;
+    border: 1px solid #e4e6eb;
+}
+
+#formation-section{
+    display: flexbox;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #242526;
+	padding: 15px;
+	max-width: 850px;
+	border-radius: 15px;
+
+}
+
+#formation-line{
+    width: auto;
+    border: 1px solid #e4e6eb;
+}
+
+#projects-section{
+    display: flexbox;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #242526;
+	padding: 15px;
+	max-width: 850px;
+	border-radius: 15px;
+}
+
+#projects-line{
+    width: auto;
+    border: 1px solid #e4e6eb;
+}
