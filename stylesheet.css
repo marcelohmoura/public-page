@@ -1,100 +1,230 @@
-body{
+body {
     background-color: #18191a;
     color: #e4e6eb;
     font-family: 'Open Sans', sans-serif;
 }
 
-#header-section{
+
+#header-section {
     display: flexbox;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
     margin-bottom: 50px;
     background-color: #242526;
-	padding: 15px;
-	max-width: 850px;
-	border-radius: 15px;
+    padding: 15px;
+    max-width: 850px;
+    border-radius: 15px;
     text-align: center;
 }
 
-#profile-pic{
+header {
+    background-image: url('https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1066&q=80');
+    border-radius: 5px;
+
+
+
+}
+
+#profile-pic {
     border-radius: 100%;
     width: 125px;
-	height: 125px;
-    border: 5px #18191a  solid;
+    height: 125px;
+    border: 5px white solid;
 }
 
-#about-section{
+#about-section {
     display: flexbox;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
     margin-bottom: 50px;
     background-color: #242526;
-	padding: 15px;
-	max-width: 850px;
-	border-radius: 15px;
+    padding: 15px;
+    max-width: 850px;
+    border-radius: 15px;
 }
 
 
-#about-line{
+#about-line {
     width: auto;
     border: 1px solid #e4e6eb;
 }
 
-p{
+p {
     text-align: justify;
+
 }
 
-#skils-section{
+#skils-section {
     display: flexbox;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
     margin-bottom: 50px;
     background-color: #242526;
-	padding: 15px;
-	max-width: 850px;
-	border-radius: 15px;
+    padding: 15px;
+    max-width: 850px;
+    border-radius: 15px;
 }
 
 
-#skills-line{
+#skills-line {
     width: auto;
     border: 1px solid #e4e6eb;
 }
 
-#formation-section{
+#formation-section {
     display: flexbox;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
     margin-bottom: 50px;
     background-color: #242526;
-	padding: 15px;
-	max-width: 850px;
-	border-radius: 15px;
+    padding: 15px;
+    max-width: 850px;
+    border-radius: 15px;
 
 }
 
-#formation-line{
+#formation-line {
     width: auto;
     border: 1px solid #e4e6eb;
 }
 
-#projects-section{
+#projects-section {
     display: flexbox;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
     margin-bottom: 50px;
     background-color: #242526;
-	padding: 15px;
-	max-width: 850px;
-	border-radius: 15px;
+    padding: 15px;
+    max-width: 850px;
+    border-radius: 15px;
 }
 
-#projects-line{
+#projects-line {
     width: auto;
     border: 1px solid #e4e6eb;
+}
+
+#contacts-section {
+    display: flexbox;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #242526;
+    padding: 15px;
+    max-width: 850px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+
+#logo-github {
+    margin-left: auto;
+    margin-right: 2%;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: inline-block;
+    width: 13%;
+    height: 13%;
+    border-radius: 100%;
+}
+
+#logo-linkedin {
+    margin-left: auto;
+    margin-right: 2%;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: inline-block;
+    width: 13%;
+    height: 13%;
+    border-radius: 100%;
+}
+
+#logo-codepen {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: inline-block;
+    width: 13%;
+    height: 13%;
+
+}
+
+#logo-whatsapp {
+    margin-left: auto;
+    margin-right: 2%;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: inline-block;
+    width: 13%;
+    height: 13%;
+    border-radius: 100%;
+}
+
+#logo-telefone {
+    margin-left: auto;
+    margin-right: 2%;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: inline-block;
+    width: 13%;
+    height: 13%;
+    border-radius: 100%;
+}
+
+#logo-email {
+    margin-left: auto;
+    margin-right: 2%;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: inline-block;
+    width: 13%;
+    height: 13%;
+    border-radius: 100%;
+}
+
+#buttons {
+    margin-top: 50px;
+
+}
+
+#career-line {
+    width: auto;
+    border: 1px solid #e4e6eb;
+}
+
+#career-section {
+    display: flexbox;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #242526;
+    padding: 15px;
+    max-width: 850px;
+    border-radius: 15px;
+}
+
+#marcelo-pic1 {
+    border-radius: 15px;
+    width: 40%;
+    height: 40%;
+    margin-left: auto;
+
+    display: block;
+
+}
+
+#teste {
+    display: flex;
+}
+
+#teste p {
+    margin-right: 5%;
 }
