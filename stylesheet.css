@@ -1,17 +1,25 @@
 body {
-    background-color: #18191a;
-    color: #e4e6eb;
-    font-family: 'Open Sans', sans-serif;
+    background-color: #4285F4;
+    font-family: 'Lato', sans-serif;
 }
 
+h1 {
+    color: #4285F4;
+}
+
+#profile-name {
+    color: black;
+}
 
 #header-section {
+    -webkit-box-shadow: 5px 5px 50px 8px rgba(0, 0, 0, 0.6);
+    box-shadow: 5px 5px 50px 8px rgba(0, 0, 0, 0.6);
     display: flexbox;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
     margin-bottom: 50px;
-    background-color: #242526;
+    background-color: white;
     padding: 15px;
     max-width: 850px;
     border-radius: 15px;
@@ -21,6 +29,7 @@ body {
 header {
     background-image: url('https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1066&q=80');
     border-radius: 5px;
+    margin-bottom: 5%;
 
 
 
@@ -30,16 +39,19 @@ header {
     border-radius: 100%;
     width: 125px;
     height: 125px;
-    border: 5px white solid;
+    border: 8px white solid;
+    transform: translatey(30%);
 }
 
 #about-section {
+    -webkit-box-shadow: 5px 5px 50px 8px rgba(0, 0, 0, 0.6);
+    box-shadow: 5px 5px 50px 8px rgba(0, 0, 0, 0.6);
     display: flexbox;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
     margin-bottom: 50px;
-    background-color: #242526;
+    background-color: white;
     padding: 15px;
     max-width: 850px;
     border-radius: 15px;
@@ -48,7 +60,7 @@ header {
 
 #about-line {
     width: auto;
-    border: 1px solid #e4e6eb;
+    border: 1px solid lightgrey;
 }
 
 p {
@@ -57,12 +69,14 @@ p {
 }
 
 #skils-section {
+    -webkit-box-shadow: 5px 5px 50px 8px rgba(0, 0, 0, 0.6);
+    box-shadow: 5px 5px 50px 8px rgba(0, 0, 0, 0.6);
     display: flexbox;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
     margin-bottom: 50px;
-    background-color: #242526;
+    background-color: white;
     padding: 15px;
     max-width: 850px;
     border-radius: 15px;
@@ -71,16 +85,18 @@ p {
 
 #skills-line {
     width: auto;
-    border: 1px solid #e4e6eb;
+    border: 1px solid lightgrey;
 }
 
 #formation-section {
+    -webkit-box-shadow: 5px 5px 50px 8px rgba(0, 0, 0, 0.6);
+    box-shadow: 5px 5px 50px 8px rgba(0, 0, 0, 0.6);
     display: flexbox;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
     margin-bottom: 50px;
-    background-color: #242526;
+    background-color: white;
     padding: 15px;
     max-width: 850px;
     border-radius: 15px;
@@ -89,16 +105,18 @@ p {
 
 #formation-line {
     width: auto;
-    border: 1px solid #e4e6eb;
+    border: 1px solid lightgrey;
 }
 
 #projects-section {
+    -webkit-box-shadow: 5px 5px 50px 8px rgba(0, 0, 0, 0.6);
+    box-shadow: 5px 5px 50px 8px rgba(0, 0, 0, 0.6);
     display: flexbox;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
     margin-bottom: 50px;
-    background-color: #242526;
+    background-color: white;
     padding: 15px;
     max-width: 850px;
     border-radius: 15px;
@@ -106,16 +124,18 @@ p {
 
 #projects-line {
     width: auto;
-    border: 1px solid #e4e6eb;
+    border: 1px solid lightgrey;
 }
 
 #contacts-section {
+    -webkit-box-shadow: 5px 5px 50px 8px rgba(0, 0, 0, 0.6);
+    box-shadow: 5px 5px 50px 8px rgba(0, 0, 0, 0.6);
     display: flexbox;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
     margin-bottom: 50px;
-    background-color: #242526;
+    background-color: white;
     padding: 15px;
     max-width: 850px;
     border-radius: 15px;
@@ -196,16 +216,18 @@ p {
 
 #career-line {
     width: auto;
-    border: 1px solid #e4e6eb;
+    border: 1px solid lightgrey;
 }
 
 #career-section {
+    -webkit-box-shadow: 5px 5px 50px 8px rgba(0, 0, 0, 0.6);
+    box-shadow: 5px 5px 50px 8px rgba(0, 0, 0, 0.6);
     display: flexbox;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
     margin-bottom: 50px;
-    background-color: #242526;
+    background-color: white;
     padding: 15px;
     max-width: 850px;
     border-radius: 15px;
@@ -213,18 +235,48 @@ p {
 
 #marcelo-pic1 {
     border-radius: 15px;
-    width: 40%;
-    height: 40%;
-    margin-left: auto;
-
+    max-width: 60%;
     display: block;
-
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#teste {
-    display: flex;
+
+#contacts-section h1 {
+    color: black;
 }
 
-#teste p {
-    margin-right: 5%;
+#marcelo-pic2 {
+    border-radius: 15px;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    ;
+}
+
+#leg1 {
+    text-align: center;
+    color: grey;
+    font-size: 12px;
+}
+
+#leg2 {
+    text-align: center;
+    color: grey;
+    font-size: 12px;
+}
+
+#print {
+    border-radius: 15px;
+    max-width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#leg3 {
+    text-align: center;
+    color: grey;
+    font-size: 12px;
 }
